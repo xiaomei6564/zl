@@ -1,0 +1,16 @@
+<svg t="1577672791514" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3609" width="64" height="64">
+  <defs>
+    <style type="text/css">@font-face {
+      font-family: 'iconfont';  /* project id 1551751 */
+      src: url('//at.alicdn.com/t/font_1551751_9s1is9yjw9k.eot');
+      src: url('//at.alicdn.com/t/font_1551751_9s1is9yjw9k.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_1551751_9s1is9yjw9k.woff2') format('woff2'),
+      url('//at.alicdn.com/t/font_1551751_9s1is9yjw9k.woff') format('woff'),
+      url('//at.alicdn.com/t/font_1551751_9s1is9yjw9k.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_1551751_9s1is9yjw9k.svg#iconfont') format('svg');
+      }
+    </style>
+  </defs>
+  <path d="M98.986667 942.08h143.36V81.92H98.986667v860.16zM51.2 34.133333h238.933333v955.733334H51.2V34.133333z m334.506667 238.933334h238.933333v716.8h-238.933333V273.066667z m47.786666 669.013333h143.36V320.853333h-143.36v621.226667zM720.213333 512h238.933334v477.866667h-238.933334V512zM768 942.08h143.36V559.786667H768v382.293333z" fill="#979797" p-id="3610">
+  </path>
+</svg>

@@ -1,0 +1,17 @@
+import request from '@/utils/request'
+
+export function initData(url, params) {
+  return request({
+    url: url,
+    method: 'get',
+    params
+  })
+}
+
+export function initDataPost(url, data) {
+  return request({
+    url: url,
+    method: 'post',
+    data: JSON.stringify(data)
+  })
+}

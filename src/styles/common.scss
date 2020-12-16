@@ -1,0 +1,25 @@
+.flexJB{
+  display: flex;
+  justify-content: space-between;
+}
+.flexAC{
+  display: flex;
+  align-items: center;
+}
+.flexCC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pointer{
+  cursor: pointer;
+}
+.pore{
+  position: relative;
+}
+.poab{
+  position: absolute;
+}
+.rotate180{
+  transform: rotate(180deg);
+}
