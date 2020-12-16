@@ -53,6 +53,7 @@
       <div class="conBox">
         <router-view/></router-view>
       </div>
+      <div class="footer">SAP HANA提供实时计算服务</div>
     </div>
   </div>
 </template>
@@ -83,9 +84,7 @@ export default {
   computed: {},
   watch: {},
   created () {
-    if (this.$route.query.child == 'ym') {
-      this.selNav = { parent: '销售达成', child: '玉米' }
-    }
+    this.selNav = { parent: '销售达成' }
   },
   mounted () { },
   methods: {}
@@ -99,7 +98,9 @@ export default {
   .navList {
     width: 11%;
     height: 100%;
+    overflow: auto;
     background: #373f52;
+    padding-top: 50px;
     .navBox {
       .navOne {
         min-height: 54px;
@@ -129,7 +130,7 @@ export default {
       }
     }
     .xialaImgSpan {
-      padding-right: 10px;
+      padding-right: 5px;
       right: 5px;
     }
     .xialaImg {
@@ -235,8 +236,16 @@ export default {
     }
     .conBox {
       width: 100%;
-      height: calc(100% - #{50px});
+      height: calc(100% - #{82px});
       background: #f3f6f8;
+    }
+    .footer {
+      height: 32px;
+      background: #fff;
+      text-align: center;
+      line-height: 32px;
+      font-size: 12px;
+      color: #b9b9b9;
     }
   }
 }
